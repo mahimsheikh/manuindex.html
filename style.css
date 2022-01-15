@@ -70,9 +70,11 @@ first-container
 }
 .filled{
     color: gold;
+    font-size: 13px;
 }
 .empty{
     color: gold ;
+    font-size: 13px;
 }
 .info-text-colour{
     color:#787885;
@@ -88,7 +90,7 @@ first-container
 ----------- */
 .ideas{
     box-shadow: 1px 1px 18px #AAAAAA;
-    font-size:2em;
+    font-size:1.7em;
     text-align: center;
     color: #1b46c5;
 }
@@ -105,3 +107,25 @@ first-container
     color: white;
     margin-top:50px;
 }
+/*--------------
+ --media queries--
+----------------- */
+/*-----------------
+    mobile device
+------------------- */
+ @media only screen and (max-width:700px){
+     .paragraph{
+        background-color: hsl(0, 76%, 52%);
+     }
+     .container{
+        width:0%;
+     }
+ }
+ /*-------------
+  tab device--
+  -----------------*/
+  @media only screen and (min-width:688px) and (max-width:992px) {
+      .paragraph{
+          background-color: hotpink;
+      }
+  }
